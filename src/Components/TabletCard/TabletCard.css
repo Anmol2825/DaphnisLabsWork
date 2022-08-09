@@ -1,0 +1,82 @@
+#card_container
+{
+    margin-top: 50px;
+    border: 1px solid grey;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+     border-radius: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    display: flex;
+
+}
+#card-image
+{
+    margin: 8px;
+    border: 1px solid gray;
+   
+}
+#card-image
+{
+    height: 60%;
+}
+#card-title
+{
+    padding-bottom:10px ;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    height: 60%;
+}
+#card-actions
+{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+    border: 1px solid gray;
+    height: 180px;
+}
+#daq_blog_image
+{
+    width: 100%;
+    height: 100%;
+}
+
+#shareincard
+{
+    display: flex;
+    flex-direction: row;
+}
+#shareincard_image
+{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+#shareincard_title
+{
+    display: flex;
+    align-items: center;
+    color: rgb(104, 98, 98);
+}
+#blog_embed_shareimage
+{
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+}
+#card_date
+{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+#card_date_title
+{
+    margin-left: 5px;
+}
+#blog_embed_calender
+{
+    height: 20px;
+}
