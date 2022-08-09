@@ -9,7 +9,7 @@ function Header() {
       </div>
       <div className='search_engine'>
         <SearchIcon style={{ position: 'absolute', left: "20px" }} />
-        <input className='input_text' /><button className='search_button'>Search</button>
+        <input className='input_text' placeholder='Type Here to Search' /><button className='search_button'>Search</button>
       </div>
       <div className='selected'>
         Paracetamol &nbsp;  <span style={{ color: "grey", fontSize: "13px" }}> (128 products) </span>&nbsp;&nbsp; <span style={{ color: "black", fontSize: "12px", backgroundColor: "teal", color: "white", padding: "4px", borderRadius: '2px', cursor: "pointer" }}>FabiFlu Tablet X</span>&nbsp;&nbsp;

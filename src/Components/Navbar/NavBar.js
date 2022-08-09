@@ -15,12 +15,12 @@ function NavBar() {
     return (
         <nav className="NavigationBar_Nav-navbar">
             <Link to="/" className="NavigationBar_Nav-navlogo" onClick={() => setOpen(false)}>
-             
-                <LogoDevIcon/>
+
+                <LogoDevIcon />
                 <span style={{
-                    fontSize:"16px",
-                    position:"relative",
-                    bottom:"6px"
+                    fontSize: "16px",
+                    position: "relative",
+                    bottom: "6px"
                 }}>Medical Darpan</span>
             </Link>
             <ul className={open ? 'NavigationBar_Nav-nav-links active' : 'NavigationBar_Nav-nav-links'}>
@@ -51,19 +51,19 @@ function NavBar() {
                         </Link>
                     </li>
                     <li className="NavigationBar_Nav-nav-item">
-                        <Link to="/sponsors" className="NavigationBar_Nav-nav-link" onClick={() => setOpen(false)}>
+                        <Link to="/" className="NavigationBar_Nav-nav-link" onClick={() => setOpen(false)}>
                             Blog
-                           
+
                         </Link>
                     </li>
                 </div>
                 <li className="NavigationBar_Nav-nav-item">
-                    <Link to="/sponsors" className="NavigationBar_Nav-nav-link" onClick={() => setOpen(false)}>
+                    <Link to="/" className="NavigationBar_Nav-nav-link" onClick={() => setOpen(false)}>
                         Login
                     </Link>
                 </li>
                 <li className="NavigationBar_Nav-nav-item">
-                    <Link to="/sponsors" className="NavigationBar_Nav-nav-link" onClick={() => setOpen(false)}>
+                    <Link to="/" className="NavigationBar_Nav-nav-link" onClick={() => setOpen(false)}>
                         <AccountCircleIcon />
                     </Link>
                 </li>
